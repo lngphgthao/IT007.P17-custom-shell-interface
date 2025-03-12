@@ -1,8 +1,10 @@
-# IT007.P17 - Custom Shell Interface
+# IT007: Operating System - Custom Shell Interface
+
+#### Instructors: MS. Nguyen Thanh Thien
 
 ## Overview
 
-This project implements a custom shell interface in C, designed for the IT007 course. It allows users to execute commands, manage processes, and navigate the file system through a command-line interface.
+This project implements a custom shell interface in C, designed for the IT007 - Operating System course. It allows users to execute commands, manage processes, and navigate the file system through a custom command-line interface.
 
 ## Features
 
@@ -10,6 +12,7 @@ This project implements a custom shell interface in C, designed for the IT007 co
 *   **Process Management:** Supports running programs in the foreground and background.
 *   **Directory Navigation:** Allows users to change directories.
 *   **Simple Built-in Commands:** Implements basic built-in commands (e.g., `cd`, `exit`).
+*   **Support Redirection and Pipeline:** Implement procedure solving input, output and pipeline (e.g., `>`, `<`, `|`)
 
 ## Files
 
@@ -36,7 +39,6 @@ This project implements a custom shell interface in C, designed for the IT007 co
     *   Type commands and press Enter to execute them.
     *   Use `cd` to change directories.
     *   Type `exit` to quit the shell.
-    *   To run a program in the background, append `&` to the command.
 
 ## Implementation Details
 
